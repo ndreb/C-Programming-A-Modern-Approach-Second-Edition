@@ -1,6 +1,6 @@
 /*
- * This program uses the formula: 'kg = lb / 2.2046' to convert from pounds to
- * kilograms.
+ * This program uses the formula: 'kg = lb x 0.45359237' to convert from pounds
+ * to kilograms.
  */
 
 #include <stdio.h>
@@ -13,11 +13,10 @@ int main(int argc, char *argv[])
     else if (argc == 2) {
         double kg, lb;
 
-        lb = atof(argv[1]); /* User input in pounds. */
-        kg = lb / 2.2046;   /* Convert from pounds to kilograms. */
+        lb = atof(argv[1]);   /* User input in pounds. */
+        kg = lb * 0.45359237; /* Convert from pounds to kilograms. */
 
-        /* Print kg rounded to 4 significant figures. */
-        printf("%0.4f%s\n", kg, "kg");
+        printf("%f%s\n", kg, "kg");
         return 0;
     } else
         fputs("error: more than one argument was passed\n", stderr);

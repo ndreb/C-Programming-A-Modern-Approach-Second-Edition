@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
         lb = atof(argv[1]);   /* User input in pounds. */
         kg = lb * 0.45359237; /* Convert from pounds to kilograms. */
 
-        printf("%0.7f %s\n", kg, "kg");
+        printf("%f %s\n", kg, "kg");
         return 0;
     } else
         fputs("error: more than one argument was passed\n", stderr);

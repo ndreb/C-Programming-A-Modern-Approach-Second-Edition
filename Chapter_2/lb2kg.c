@@ -6,15 +6,14 @@
 
 int main(int argc, char *argv[])
 {
-    /* Return error if no arguments were passed. */
+    /* Return error if no argument was passed. */
     if (argc < 2) {
         printf("Error: No weight entered.\n");
         return 1;
     }
 
     /* Accept one argument only. */
-    else if (argc == 2)
-    {
+    else if (argc == 2) {
         double kg, lb;
 
         lb = atof(argv[1]); /* User input in pounds. */
@@ -25,8 +24,7 @@ int main(int argc, char *argv[])
     }
 
     /* Return error if more than one argument was passed. */
-    else
-    {
+    else {
         printf("Error: Argument limit exceeded.\n");
         return 1;
     }

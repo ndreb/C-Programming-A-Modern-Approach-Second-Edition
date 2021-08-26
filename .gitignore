@@ -1,1 +1,9 @@
-a.out
+# Ignore all.
+*
+
+# Don't ignore directories.
+!*/
+
+# Don't ignore source code files.
+!source/**/*.c
+!source/**/*.h

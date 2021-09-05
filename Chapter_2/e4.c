@@ -1,6 +1,6 @@
 /*
- * This program declares several int and float variables and prints them to
- * stdout without initializing them.
+ * Declares several int and float variables and prints them to stdout without
+ * initializing them.
  */
 
 #include <stdio.h>

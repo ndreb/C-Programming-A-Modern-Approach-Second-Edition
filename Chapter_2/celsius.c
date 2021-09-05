@@ -1,5 +1,5 @@
 /*
- * This program converts the temperature in Fahrenheit to the celsius
+ * Converts the temperature in Fahrenheit to the celsius
  * equivalent.
  */
 

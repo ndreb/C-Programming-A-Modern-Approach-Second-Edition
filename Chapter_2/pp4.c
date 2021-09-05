@@ -1,4 +1,7 @@
 /*
+ * Chapter 2
+ * Programming Project 4
+ *
  * This program adds x% tax to the amount entered by the user.
  */
 

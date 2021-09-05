@@ -1,6 +1,7 @@
 /*
  * Chapter 2
  * Programming Project 1
+ *
  * This program prints a check mark using asterisks.
  */
 

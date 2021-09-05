@@ -1,4 +1,7 @@
 /*
+ * Chapter 2
+ * Exercise 4
+ *
  * Declares several int and float variables and prints them to stdout without
  * initializing them.
  */

@@ -1,5 +1,8 @@
 /*
- * This program computes the volume of a sphere, using the formula:
+ * Chapter 2
+ * Programming Project 2
+ *
+ * Computes the volume of a sphere, using the formula:
  * V = (4 / 3) * (pi * r^3)
  */
 

@@ -1,4 +1,7 @@
 /*
+ * Chapter 2
+ * Exercise 1
+ *
  * Kernighan and Ritchie's famous "hello, world" program.
  */
 

@@ -1,6 +1,7 @@
 /*
- * Converts the temperature in Fahrenheit to the celsius
- * equivalent.
+ * Chapter 2
+ *
+ * Converts the temperature in Fahrenheit to the celsius equivalent.
  */
 
 #include <stdio.h>

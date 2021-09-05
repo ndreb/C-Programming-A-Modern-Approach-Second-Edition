@@ -1,4 +1,6 @@
 /*
+ * Chapter 2
+ *
  * Computes the dimensional weight of a box.
  */
 

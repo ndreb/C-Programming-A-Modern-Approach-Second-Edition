@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
         double x = atof(argv[1]);
         double y = (((((((((3 * x) + 2) * x) - 5) * x) - 1) * x) + 7) * x) - 6;
 
-        printf("%f\n", y);
+        printf("%.4f\n", y);
 
         return 0;
     }

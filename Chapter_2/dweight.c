@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     if (argc == 5) {
         printf("\nL x W x H: %.1f x %.1f x %.1f in.\n", length, width, height);
         printf("Volume: %.1f cu in.\n", volume);
-        printf("Dimensional weight: %.0lf lb.\n", volume / divisor);
+        printf("Dimensional weight: %.0f lb.\n", volume / divisor);
         return 0;
     } else
         return 1;

@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
         double y = (3 * (pow(x, 5))) + (2 * (pow(x, 4))) - (5 * (pow(x, 3))) \
                    - (pow(x, 2)) + (7 * x) - 6;
 
-        printf("%f\n", y);
+        printf("%.4f\n", y);
 
         return 0;
     }

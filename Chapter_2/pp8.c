@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
         double P = atof(argv[1]);        /* Principle */
         double r = atof(argv[2]) / 1200; /* monthly interest rate */
         double m = atof(argv[3]);        /* monthly payment */
-        double n = atof(argv[4]);        /* number of months */
+        double n = atof(argv[4]);        /* number of payments */
                                          /* Balance after n months */
         double B = pow((1 + r), n) * P - (pow((1 + r), n) - 1) / r * m;
 

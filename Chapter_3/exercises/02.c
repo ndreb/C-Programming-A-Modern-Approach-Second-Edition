@@ -7,7 +7,7 @@
 
 int main(void)
 {
-    float x;
+    float x = 3;
 
     printf("%-8.1e\n", x);
     printf("%10.6e\n", x);

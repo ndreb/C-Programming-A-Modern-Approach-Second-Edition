@@ -1,4 +1,4 @@
-include ../config.mk
+include ~/C/C-Programming-A-Modern-Approach-Second-Edition/config.mk
 
 SRCS = ${wildcard *.c}
 

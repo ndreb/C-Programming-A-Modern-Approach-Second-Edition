@@ -21,8 +21,8 @@ int main(void)
     scanf("%d/%d/%d", &month, &day, &year);
 
     printf("\n%s\n", header);
-    printf("%-16.d$%-15.2f%.2d/%.2d/%d\n", item_number, unit_price, month, day\
-            , year);
+    printf("%-16.d$%-15.2f%.2d/%.2d/%d\n", item_number, unit_price, month, day,
+           year);
 
     return 0;
 }

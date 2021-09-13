@@ -12,8 +12,9 @@ int main(void)
     int prefix, group_id, publisher_code, item_number, check_digit;
 
     printf("Enter ISBN: ");
-    scanf("%d-%d-%d-%d-%d", &prefix, &group_id, &publisher_code, &item_number,\
-            &check_digit);
+    scanf("%d-%d-%d-%d-%d", &prefix, &group_id, &publisher_code, &item_number,
+          &check_digit);
+
     printf("GS1 prefix: %d\n", prefix);
     printf("Group indentifier: %d\n", group_id);
     printf("Publisher code: %d\n", publisher_code);

@@ -1,6 +1,6 @@
 /*
  * Chapter 4
- * Programming Project 2
+ * Programming Project 3
  *
  * Takes a three-digit number as input, reverses the digits, then prints the
  * result.
@@ -10,12 +10,12 @@
 
 int main(void)
 {
-    int n;
+    int i, j, k;
 
     printf("Enter a three-digit number: ");
-    scanf("%d", &n);
+    scanf("%1d%1d%1d", &i, &j, &k);
 
-    printf("The reversal is: %d%d%d", n % 10, n / 10 % 10, n / 100);
+    printf("The reversal is: %d%d%d", k, j, i);
 
     return 0;
 }

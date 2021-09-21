@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
             n /= 8;
         }
 
-        printf("%05d", octal_n);
+        printf("%d", octal_n);
         return 0;
     }
 }

@@ -2,7 +2,7 @@
  * Chapter 4
  * Programming Project 4
  *
- * Converts an integer between 0 and 32767 to octal (base 8).
+ * Converts an integer between 0 and 99999999 to octal (base 8).
  */
 
 #include <math.h>

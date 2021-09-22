@@ -10,11 +10,10 @@
 
 int nlog(int x, int b)
 {
-    int y = 0;
+    int y;
 
-    while (y <= b) {
+    for (y = 0; x >= b; y++) {
         x /= b;
-        y++;
     }
 
     return y;
@@ -22,11 +21,10 @@ int nlog(int x, int b)
 
 int npow(int b, int x)
 {
-    int y = 1;
+    int y;
 
-    while (x > 0) {
+    for (y = 1; x > 0; x--) {
         y *= b;
-        x--;
     }
 
     return y;

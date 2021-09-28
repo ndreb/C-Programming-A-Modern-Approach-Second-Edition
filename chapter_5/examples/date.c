@@ -58,7 +58,7 @@ int main(void)
                  break;
     }
 
-    printf(", 20%d.", year);
+    printf(", 20%.2d.", year);
 
     return 0;
 }

@@ -18,6 +18,8 @@ int main(void)
     if (hour == 0) {
         hour = 12;
         strcpy(suffix, am);
+    } else if (hour == 12) {
+        strcpy(suffix, pm);
     } else if (hour > 12) {
         hour -= 12;
         strcpy(suffix, pm);

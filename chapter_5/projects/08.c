@@ -1,5 +1,5 @@
 /*
- *
+ * Computes the closest departure time, based on the time entered by the user.
  */
 
 #include <stdio.h>

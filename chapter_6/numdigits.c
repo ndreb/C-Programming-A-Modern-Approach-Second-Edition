@@ -8,16 +8,18 @@ int main(void)
 {
     int x, y;
 
-    do {
-        printf("Enter a nonnegative integer: ");
-        scanf("%d", &x);
-    } while (x < 0);
+    printf("Enter a integer: ");
+    scanf("%d", &x);
+
+    if (x < 0) {
+        x *= -1;
+    }
 
     for (y = 1; x >= 10; y++) {
         x /= 10;
     }
 
-    printf("The number %d has %d digit(s).\n", x, y);
+    printf("The number has %d digit(s).\n", y);
 
     return 0;
 }

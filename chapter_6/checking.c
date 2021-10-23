@@ -10,11 +10,13 @@ int main(void)
     double balance = 0;
     double credit, debit;
 
+menu:
+    printf("\n*** ACME checkbook balancing program ***\n\n"
+           "OPTIONS:\n\n"
+           "    0: clear, 1: credit, 2: debit, 3: balance, 4: exit\n\n");
+
     while (1) {
-        printf("\n*** ACME checkbook balancing program ***\n\n"
-               "OPTIONS:\n\n"
-               "    0: clear, 1: credit, 2: debit, 3: balance, 4: exit\n\n"
-               "Enter option: ");
+        printf("\nEnter option: ");
         scanf("%d", &option);
 
         switch (option) {
@@ -35,11 +37,9 @@ int main(void)
                 printf("\nBalance: $%.2f\n", balance);
                 break;
             case 4:
-                goto exit;
+                return 0;
             default:
-                continue;
+                goto menu;
         }
     }
-exit:
-    return 0;
 }
